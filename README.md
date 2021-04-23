@@ -7,8 +7,18 @@ Las páginas web para ser visualizadas de forma pública tienen que estar alojad
 
 Las webs son **texto** están desarrolladas en un lenguaje de marcas: **HTML**
 
+```html
   <!DOCTYPE html>
   <html>
-    <head>*INFORMACION QUE NO SE VISUALIZA EN LA PAGINA*</head>
+    <head>INFORMACION QUE NO SE VISUALIZA EN LA PAGINA</head>
     <body></body>
   </html>
+```
+
+Imagen: `<img>`
+Titulo: `<h1>`
+Lista desordenada: `<ul><li>`
+Lista ordenada: `<ol><li>`
+Hipervínculo: `<a></a>`
+Texto: `<p>`
+
