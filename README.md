@@ -1,1 +1,14 @@
-# review
+# REVIEW DEL CURSO DE FRONT-END WEB DEVELOPER
+
+## Día 1- 22 ABR
+
+Páginas Web: Contenido de distinto tipo; imágenes, texto, vídeo, sonido, ... mostrado a través de un **navegador**.
+Las páginas web para ser visualizadas de forma pública tienen que estar alojadas en un **servidor web**
+
+Las webs son **texto** están desarrolladas en un lenguaje de marcas: **HTML**
+
+  <!DOCTYPE html>
+  <html>
+    <head>*INFORMACION QUE NO SE VISUALIZA EN LA PAGINA*</head>
+    <body></body>
+  </html>
