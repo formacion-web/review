@@ -25,3 +25,21 @@ Texto: `<p>`
 [página del curso](https://bcncodes-academy.web.app)
 
 [MDN: La biblia del desarrollo web](mdn.com)
+
+Día 2 - 23 Abril
+
+Elementos de bloque vs en linea
+
+Elementos de bloque: div, p, h1, h2, main, header, footer,...
+Elementos de línea: img, a, span, strong, i, em,...
+
+Elementos semánticos:
+header: contenido es la cabecera de la página
+footer: contenido que va al pie de página
+nav: barra navegación
+
+strong, ul, table, ...
+
+Comenzamos el ejercicio del [blog Anden27](http://anden-27.blogspot.com/2018/03/museo-de-los-vikingos-en-oslo.html)
+
+
