@@ -26,7 +26,7 @@ Texto: `<p>`
 
 [MDN: La biblia del desarrollo web](mdn.com)
 
-Día 2 - 23 Abril
+## Día 2 - 23 Abril
 
 Elementos de bloque vs en linea
 
@@ -41,5 +41,15 @@ nav: barra navegación
 strong, ul, table, ...
 
 Comenzamos el ejercicio del [blog Anden27](http://anden-27.blogspot.com/2018/03/museo-de-los-vikingos-en-oslo.html)
+
+## Día 3 - 26 Abril
+
+Inicio CSS:
+formato de una regla CSS
+concepto de herencia de estilos
+selectores de id y de clase
+
+Ejercicio con selectores de clase
+Recepta de la iaia. EJercicio entregable
 
 
