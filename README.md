@@ -52,4 +52,28 @@ selectores de id y de clase
 Ejercicio con selectores de clase
 Recepta de la iaia. EJercicio entregable
 
+## Día 4 - 27 Abril
 
+Selectores avanzados: Según la posición en el árbol podemos seleccionarlos
+Ej.: 
+
+```css
+selección de descendientes:
+header a{ }
+body nav{ }
+selección hijos directos:
+body > nav { }
+header > nav { }
+selección por agrupación:
+p, h2{ }
+selección por un atributo: img[src="gatito.jpg"]{ }
+selección por pseudoelementos: div::before{ }
+selección por pseudoclases: a:hover{ }
+```
+BOX-MODEL || MODELO DE CAJA
+
+elemento de bloque: estructura de caja: contenido | padding | border | margin
+medidas de una caja: ancho de una caja por defecto se refiere al contenido. Se puede cambiar con la propiedad:
+    `box-sizing` y valor `border-box`
+    
+    
