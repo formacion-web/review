@@ -76,4 +76,23 @@ elemento de bloque: estructura de caja: contenido | padding | border | margin
 medidas de una caja: ancho de una caja por defecto se refiere al contenido. Se puede cambiar con la propiedad:
     `box-sizing` y valor `border-box`
     
-    
+## Día 5 - 28 Abril
+
+Posicionamiento - Positioning: 
+1. propiedad positioning;
+2. display: flex;
+3. display: grid;
+
+1. Positioning
+  - `position: static`, posición por defecto, el elemento no se puede mover de su lugar,
+  - `position: relative`, elemento se mueve si se alteran los valores de las props: top, left, right or bottom. El elemnto se desplaza el hueco no se rellena.
+  - `position: absolute`, el se mueve igual que el relative, pero su espacio se ocupa por el siguiente elemento. Las coordenadas se fijan respecto al elemento superior posicionado como relative, y si no hay ninguno respecto al body.
+  - `position: fixed`: 0 que absolute pero el el no se mueve con scroll.
+  - `position: sticky`:  0 que fixed pero hace scroll hasta que el scroll llega a las coordenadas del elemento.
+
+---
+JS
+codeCombat
+como se asignan valores a variables y se imprimen por pantalla.
+--
+  - 
