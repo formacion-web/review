@@ -91,8 +91,51 @@ Posicionamiento - Positioning:
   - `position: sticky`:  0 que fixed pero hace scroll hasta que el scroll llega a las coordenadas del elemento.
 
 ---
+
 JS
 codeCombat
 como se asignan valores a variables y se imprimen por pantalla.
---
-  - 
+
+## Día 6 - 29 Abril
+
+JS
+
+Cómo se declaran variables: 
+```js
+let nom_variable = valor;
+const nom_constante = valor;
+```
+
+Tipos de variable:
+```js
+let nombre = "Pepe"; // nombre es una variable de tipo string
+let num = 3; // num es una variable de tipo number
+let bandera = true; // bandera es de tipo boolean
+```
+
+Una variable sin valor devuelve `undefined`
+
+Operadores:
++ --> se utiliza para sumar number o para concatenar strings.
+"-", "/","*","%", "**"
+
+Sumar numero number + string = concatenar strings
+
+---
+
+CSS
+
+pseudo-elementos: elementos que no pertenecen a la página pero se generan sobre elementos que ya existen.
+
+```css
+p::before{
+  content="":
+}
+
+after, first-letter, first-line, selection, etc.
+
+
+
+
+
+
