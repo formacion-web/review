@@ -133,8 +133,16 @@ p::before{
 }
 
 after, first-letter, first-line, selection, etc.
+```
 
+## Día 7 - 30 de Abril
 
+Pseudo-classes: Diferentes estados que puede tener un elemento. Ej.: `:hover`, `:visited`, `:link`, etc.
+
+Flexbox: librería que se ocupa de posicionar elementos html.
+  - Necesita un elemento contenedor al que se aplica el flex: `display:flex` para modificar el comportamiento de los hijos
+  - Propiedades del contenedor: `flex-flow: column wrap`, `justify-content: center`, `align-items: center`
+  - Propiedades de los hijos: `order: 1`, `align-self`
 
 
 
