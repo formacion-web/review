@@ -144,6 +144,27 @@ Flexbox: librería que se ocupa de posicionar elementos html.
   - Propiedades del contenedor: `flex-flow: column wrap`, `justify-content: center`, `align-items: center`
   - Propiedades de los hijos: `order: 1`, `align-self`
 
+## Día 8 - 3 Mayo
+
+Repaso de semánticos HTML,
+
+Media queries: `@media()`
+  - Diseño Adaptativo: adaptamos nuestra web al ancho del dispositivo.
+  - Mobile first: el diseño de reglas para el móvil son el por defecto, van fuera de los `@media()`
+  
+  ```css
+  p{
+  font-family: ...;
+  display: none;
+  }
+  
+  @media(min-width:480px){
+    p{
+      display:block;
+    }
+  }
+  
+  ``` 
 
 
 
