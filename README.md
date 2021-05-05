@@ -166,5 +166,16 @@ Media queries: `@media()`
   
   ``` 
 
+### D-ia 9 - 4 Mayo
+
+JS
+Condiciones:
+Modificadores del flujo de programación: if(_condicion_){instrucciones} else {instrucciones}
+  - if(_condicion1_){}else if(_condicion2_)...
+
+CSS
+propiedades: `overflow: hidden | scroll | auto` 
+             `z-index:1` posicionar elementos en el eje z. 
+
 
 
