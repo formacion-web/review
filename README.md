@@ -127,6 +127,9 @@ CSS
 
 pseudo-elementos: elementos que no pertenecen a la página pero se generan sobre elementos que ya existen.
 
+
+
+
 ```css
 p::before{
   content="":
@@ -177,5 +180,35 @@ CSS
 propiedades: `overflow: hidden | scroll | auto` 
              `z-index:1` posicionar elementos en el eje z. 
 
+### Día 10 - 5 Mayo
 
+Transformaciones, transiciones y animaciones:
+
+```css
+@keyframes movimiento {
+0%{transform:translate(0px); background-color: red;}
+25%{transform: translate(25px); background-color:black;}
+...
+100%{transform: translate(100px)}
+}
+transform: translate(), rotate(), scale(), skew(), matrix()
+transition: all 1.5s   //animación disparada por un evento, que cesa con el evento
+animate: movimiento 1.5s 0s infinite alternate
+```
+
+### Día 11 - 6 Mayo
+
+JS
+**función**
+Agrupación de código con el propósito de ser reutilizado
+
+```js
+function sayHello(){
+  console.log('Hello');
+}
+
+function sayHello(nombre){
+console.log(`Hello ${nombre}`);
+}
+``` 
 
