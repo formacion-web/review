@@ -212,3 +212,46 @@ console.log(`Hello ${nombre}`);
 }
 ``` 
 
+### Día 12 - 7 Mayo
+
+
+### Día 13 - 10 Mayo
+
+GRIDCSS
+
+- Igual que flex, se aplica al contenedor para posicionar los elementos hijos.
+- Tiene dos partes:
+-   Definición de la cuadrícula (grid)
+-   Se posicionan los elementos en la cuadrícula
+
+```css
+.padre{
+  display: grid;
+  /*Opción 1 */
+  grid-template-areas: "header header header header"
+                       "main   main   main   aside"
+                       "footer footer footer footer"
+ /*Opción 2 */                      
+ grid-template-areas: "header  header"
+                       "main   aside"
+                       "footer footer"                       
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 8fr 1fr;
+                         
+}
+
+header{ grid-area:header; }
+main {grid-area: main; }
+aside {grid-area: aside; }
+footer{ grid-area: footer; }
+
+---
+.hijo1{
+  grid-column: 1;
+  grid-rows: 1 /span 2;
+}
+
+
+
+
+
