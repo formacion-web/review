@@ -251,6 +251,30 @@ footer{ grid-area: footer; }
   grid-rows: 1 /span 2;
 }
 
+### Día 14 - 11 Mayo
+
+JS - arrays
+-----------
+
+Colecciones ordenadas de elementos. 
+
+```js
+let miArray = [1,2,3,4,5];
+let miArrayStrings = ['Hola','que','hase'];
+
+La posición que ocupa el elemento en el array comienza con la posición 0.
+
+miArray.length: núm. elementos que tiene
+miArray.splice(i,j);: función que elimina o sustituye elementos del array.
+
+for(let i=0; i<miArray.length; i++){
+  console.log(miArray[i]);
+}
+
+
+
+
+
 
 
 
