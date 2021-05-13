@@ -271,8 +271,30 @@ for(let i=0; i<miArray.length; i++){
   console.log(miArray[i]);
 }
 
+### Dia 15 - 12 Mayo
 
+Repaso de maquetación html-css: code-along  YUM-YUM
 
+1. Estructuración con semánticos
+2. Preparación de los assets: imágenes, fuentes,...
+3. Dar estilos: 
+  1. Linkar las hojas de estilo.
+  2. Dimensionamos cajas principales
+  3. Posicionamos cajas principales
+  4. Empezamos a dimensionar y posicionar elementos hijos. Comenzando por el elemento superior. (RECOMENDADO Comentarios en el css para indicar secciones del documento)
+  5. Detalles:
+    1. Tamaño fuentes
+    2. Ajuste fino de espacios: padding y margin
+    3. Colores
+**Recomendaciones**:
+  - imágenes si tienen contenido semántico son `<img>`. Si son estéticas son background.
+  - Utilizar herramientas para: selección colores (color-pickers), generación de gradientes, conversión de colores a filtros, buscador de fuentes (what-a-font, fontis,...)
+  - Utilizar validadores del HTML y CSS: w3validator o similares
+  - Imprescindible tener abierto el inspector del navegador. 
+  - Antes de utilizar una propiedad que no conocemos comprobar su sintaxis en MDN o W3SCHOOL.
+  - No piquéis. Utilizad las recomendaciones del vscode.
+  - Instalar extensiones de vscode de productividad: cssgenerator, browsersync, html y css snippets,...
+  - PACIENCIA
 
 
 
