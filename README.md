@@ -250,7 +250,7 @@ footer{ grid-area: footer; }
   grid-column: 1;
   grid-rows: 1 /span 2;
 }
-
+```
 ### Día 14 - 11 Mayo
 
 JS - arrays
@@ -270,7 +270,7 @@ miArray.splice(i,j);: función que elimina o sustituye elementos del array.
 for(let i=0; i<miArray.length; i++){
   console.log(miArray[i]);
 }
-
+```
 ### Dia 15 - 12 Mayo
 
 Repaso de maquetación html-css: code-along  YUM-YUM
