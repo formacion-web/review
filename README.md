@@ -296,8 +296,46 @@ Repaso de maquetación html-css: code-along  YUM-YUM
   - Instalar extensiones de vscode de productividad: cssgenerator, browsersync, html y css snippets,...
   - PACIENCIA
 
+### Día 16 - 13 Mayo
+
+Cómo escribir funciones en ES6:
+  `() => { }` -- Función flecha ó arrow function 
+  
+  Son funciones anónimas. Una función flecha debe estar asignada a una variable.
+  El equivalente de `function(){...}`
+  
+  `let miFuncion = (params) => {... contenido de la función}`
+  No tienen contexto.
+
+---
+Métodos Avanzados de Arrays:
+
+- Funciones iteradoras. 
+- Funciones que reciben por parámetro otra función. La función que se pasa por parámetro se llama **callback**
+```js
+let saludar = (e)=>console.log(`hola ${e}`);
+
+let array = ['Vilma','Pedro','Pablo','Betty'];
+//funciones de callback
+array.forEach(saludar);
 
 
+array.sort();
+
+console.log(array);
+console.log(array.find(elemento => elemento.includes('V')))
+
+arrayNums = [123,3423,55,3,0];
+
+let nuevoArray = arrayNums.map(numero =>
+numero * 2 )
+
+console.log(nuevoArray);
+
+let acumulado = array.reduce((ac,el)=> ac +='-'+ el)
+
+console.log(acumulado);
+```
 
 
 
