@@ -337,5 +337,12 @@ let acumulado = array.reduce((ac,el)=> ac +='-'+ el)
 console.log(acumulado);
 ```
 
+### Día 17 - 14 Mayo
+
+Examen práctico y teórico
+Ejercicios de Arrays.
+
+
+
 
 
