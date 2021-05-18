@@ -342,6 +342,39 @@ console.log(acumulado);
 Examen práctico y teórico
 Ejercicios de Arrays.
 
+### Día 18 - 15 Mayo
+
+Objetos
+
+Mapas desordenados de claves-valor.
+
+```js
+function pepe(){}
+let myObject = {
+  name:'Rosa',
+  surname: 'Smith',
+  age: 25,
+  correr: pepe;
+  }
+}
+
+Acceso a props del objeto: myObject.name ó myObject['name']
+
+myObject.hobbies = ['surf','read'];
+
+console.log(myObject.hobbies);
+
+for(let prop in myObject){
+  console.log(prop, myObject[prop]);
+}
+
+
+
+
+
+
+
+
 
 
 
