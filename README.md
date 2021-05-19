@@ -368,6 +368,30 @@ for(let prop in myObject){
   console.log(prop, myObject[prop]);
 }
 
+### Dia 19 Mayo
+
+DOM
+___
+
+Documento Object Model 
+
+Representación del HTML en forma de árbol es el DOM.
+
+DOCUMENT
+|_HTML
+  |_HEAD
+  |_BODY
+    |_HEADER
+    |_MAIN
+    
+Objeto principal es `document`
+
+`document.getElementById('gato');`
+`document.getElementsByClassName('mouse');`
+`document.getElementsByTagName('header');`
+
+`document.querySelector('div.cat .mouse')`
+`document.querySelectorAll('div.cat .mouse')`
 
 
 
