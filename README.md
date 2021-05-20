@@ -367,8 +367,8 @@ console.log(myObject.hobbies);
 for(let prop in myObject){
   console.log(prop, myObject[prop]);
 }
-
-### Dia 19 Mayo
+```
+### Dia 18 Mayo
 
 DOM
 ___
@@ -394,8 +394,20 @@ Objeto principal es `document`
 `document.querySelectorAll('div.cat .mouse')`
 
 
+### Día 19-Mayo
+
+- Obtenemos elemento: `let elemento = document.getElementById('lo_que_sea')
+- Lo utilizamos para modificar sus características:
+  - estilos: `elemento.style.backgroundColor='red'`
+    -**Recomendado:** creando clases en css y añadiendo la clase al elemento en js.
+      `elemento.className = 'red'`
+      `elemento.classList.add('red');`
+      `elemento.classList` devuelve un array de nombres de clase del elemento.
+      `elemento.classList.remove('red');`
+      `elemento.classLIst.toggle('red');`
 
 
+      
 
 
 
