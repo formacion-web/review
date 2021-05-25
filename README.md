@@ -406,6 +406,24 @@ Objeto principal es `document`
       `elemento.classList.remove('red');`
       `elemento.classLIst.toggle('red');`
 
+### Día 20-Mayo
+
+-  Cómo detectar eventos en el navegador:
+   - Eventos se asocia un __listener__. Función que realiza alguna acción cuando se produce el evento.
+   - 3 maneras de asociar listeners:
+      - dentro del html: al atributo del elemento que corresponde el evento: ej. onclick.
+      - dentro del js: 
+       ```js
+         let button = document.querySelector('button');
+         button.onclick = saludar;
+       ```
+      - utilizar el método `addEventListener(type, listener, opción)`
+      ```js
+        button.addEventListener('click', saludar);
+        button.removeEventListener('click',saludar);
+      ```
+   
+        
 
       
 
