@@ -422,6 +422,10 @@ Objeto principal es `document`
         button.addEventListener('click', saludar);
         button.removeEventListener('click',saludar);
       ```
+   ### Día 25-Mayo
+   
+   Ejercicios
+   
    
         
 
