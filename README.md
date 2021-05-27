@@ -426,8 +426,30 @@ Objeto principal es `document`
    
    Ejercicios
    
-   
-        
+  ### Día 26-Mayo
+  
+  Clases en JavaScript
+  
+  Las clases en js son un invento del ES6. Son una manera de expresar la POO y la herencia en JavaScript. 
+  
+  Sintaxis:
+  ```js
+  class Persona {
+  
+    constructor(name, surname){
+      this.name = name;
+      this.surname = surname;
+    }
+    saludar(){
+      alert(`hola ${this.name}` 
+    }
+    
+  }
+  
+  let persona = new Persona('Rosa','Smith);
+```
+
+
 
       
 
