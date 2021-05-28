@@ -448,6 +448,13 @@ Objeto principal es `document`
   
   let persona = new Persona('Rosa','Smith);
 ```
+### Día 27-Mayo
+
+Funciones asíncronas
+
+**Asincronía**: Son esas tareas de duración indeterminada que no se ejecutan en el hilo principal. Son tareas que tienen un retorno y necesitamos un mecanismo para recuperar la información de las tareas asíncronas. Los callbacks son funciones que se pasan por parámetro a la tarea asíncrona y recogen el resultado de esa tarea.
+
+2 funciones asíncronas en js: `setTimeout(funcion_callback, tiempo en ms)` y `setInterval(funcion_callback, tiempo en ms)`
 
 
 
