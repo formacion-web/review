@@ -33,6 +33,35 @@ Elementos de bloque vs en linea
 Elementos de bloque: div, p, h1, h2, main, header, footer,...
 Elementos de línea: img, a, span, strong, i, em,...
 
+
+### 29 -Mayo
+
+Promesas: estructura para tratar la asincronía en js.
+Utilizamos la clase Promise:
+
+function funcioncb(resolve,reject){
+
+}
+
+let objPromesa = new Promise(funcioncb);
+
+Promise.resolve();
+Promise.reject();
+
+Array.from()
+
+fetch('https//api.com/).then(response => response.json())
+
+function traerDatos(){
+
+return objPromesa;
+
+}
+
+traerDatos().then(cb);
+
+
+
 Elementos semánticos:
 header: contenido es la cabecera de la página
 footer: contenido que va al pie de página
