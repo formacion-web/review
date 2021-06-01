@@ -477,7 +477,7 @@ Objeto principal es `document`
   
   let persona = new Persona('Rosa','Smith);
 ```
-### Día 27-Mayo
+### Día 28-Mayo
 
 Funciones asíncronas
 
@@ -485,6 +485,15 @@ Funciones asíncronas
 
 2 funciones asíncronas en js: `setTimeout(funcion_callback, tiempo en ms)` y `setInterval(funcion_callback, tiempo en ms)`
 
+
+### Día 31-Mayo
+
+Función js que devuelve una promesa: `fetch`:
+```js
+fetch('https://api.com')
+    .then(response => response.json())
+    .then(datos => datos.forEach(e=> console.log(e))
+    .catch(error => console.error(error.message))
 
 
       
