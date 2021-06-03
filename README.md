@@ -494,10 +494,18 @@ fetch('https://api.com')
     .then(response => response.json())
     .then(datos => datos.forEach(e=> console.log(e))
     .catch(error => console.error(error.message))
+```
+### Día 1-Junio
 
+APIs del navegador. Código JS que nos permite realizar determinadas funciones.
+  - `fetch`: Interacción con un servidor mediante protocolo http.
+  - `geolocation`: Permite obtener las coordenadas del dispositivo donde se abre el navegador.
+  - storage, keyboard, drag&drop, history, battery
 
-      
-
+- pintar coordenadas en un mapa: 
+-   google.maps.
+-   open map: leaflet --
+-   bing maps,...
 
 
 
