@@ -507,6 +507,17 @@ APIs del navegador. Código JS que nos permite realizar determinadas funciones.
 -   open map: leaflet --
 -   bing maps,...
 
+### 3 - Junio
+
+- `storage` -- Almacenar información en el navegador. Persistente - localStorage | sessionStorage ---> getItem(), setItem(), removeItem()
+- `history` -- Trabajar con el historial del navegador. 
+- `MediaStream Recording API`-- API de captura de pantalla.
+- `drag&drop` -- API arrastrar y soltar. 
+- 'keyboard'
+
+-- Chronometer --
+
+
 
 
 
