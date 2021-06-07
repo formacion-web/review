@@ -517,6 +517,29 @@ APIs del navegador. Código JS que nos permite realizar determinadas funciones.
 
 -- Chronometer --
 
+### 4 - Junio
+
+**Sass**
+- Preprocesador de CSS. Generamos un fichero .scss se traduce a .css
+```html
+  <head>
+    <link href='style.css'>
+</head>  
+```
+desde el terminal lanzo el compilador: `sass style.scss style.css`.
+
+- Crear variables:
+$color: brown;
+
+- Crear funciones:
+mixin _funcion_{
+}
+reglas: @include funcion;
+
+- Anidamiento de reglas y propiedades.
+- herencia: @extend;
+
+
 
 
 
