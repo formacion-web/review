@@ -539,6 +539,26 @@ reglas: @include funcion;
 - Anidamiento de reglas y propiedades.
 - herencia: @extend;
 
+### 5-Junio
+
+Typescript: javascript con funcionalidades adicionales. Un js de última generación: ESNEXT. 
+
+Es un js tipado. Todas las variables, argumentos, funciones, objetos, etc. tienen un tipo asignado. 
+Existen tipos básicos: string, number, boolean, any, unknown, never,...
+Existen tipos complejos: Array<T>. EJ: Array<Object>, Array<string>. 
+Existen tipos personalizados. Ej. Variable del tipo Person:
+   interface Person{
+    name: string;
+    surname: string;
+    age: number;
+    address: Array<Adress>
+  }
+
+type Operador = 'multiplicar' | 'dividir' | 'sumar' | 'restar';
+
+---
+Checking error..
+
 
 
 
