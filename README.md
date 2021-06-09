@@ -559,6 +559,38 @@ type Operador = 'multiplicar' | 'dividir' | 'sumar' | 'restar';
 ---
 Checking error..
 
+### 8-Junio
+
+Angular:
+
+Framework de desarrollo front-end para construir aplicaciones SPA (single-page-application).
+- herramientas para desarrollar en typescript --compilador ts
+- herramientas para desarrollar con preprocesadores css -- compiladores de css
+- herramientas de testing: unitario (jasmine-karma) y e2e (protractor)
+- empaquetador para generar la versión compilada (webpack)
+- un generador de scripts: schematics
+- ... 
+
+Instalación:
+- requiere npm para su instalación: `npm i -g @angular/cli`;
+Cliente Angular
+- `ng...` 
+
+Nueva aplicación: `ng new nombre_aplicacion`
+  |_ si queremos Routing
+  |_ qué tipo de preprocesador de estilos queremos
+  
+  `ng new mi-aplicacion --style=scss --skipTest=true --routing=true`
+  
+Fichero de configuración de la aplicación: `angular.json`
+  |_instalación de librerías de terceros:
+       - `npm install bootstrap`
+       - styles:[...link al directorio de node_modules donde se encuentra el css de la librería]
+       - scripts:[...link al directorio de node_modules donde se encuentra el js de la librería]
+       
+       
+
+
 
 
 
