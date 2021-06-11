@@ -588,7 +588,28 @@ Fichero de configuración de la aplicación: `angular.json`
        - styles:[...link al directorio de node_modules donde se encuentra el css de la librería]
        - scripts:[...link al directorio de node_modules donde se encuentra el js de la librería]
        
-       
+ ### 9 junio
+ 
+ Angular estructurado en componentes y esos componentes se registran dentro de un módulo. 
+ Módulo: es el elemento de apoyo a los componentes que agrupa. Importa las dependencias que necesitan los módulos, expone los componentes que son visibles para otros componentes fuera del módulo.
+ 
+ ```ng
+ ng g m nombre_modulo --routing
+ ```
+El módulo tiene el decorador @ngModule.
+
+Los módulos nos facilitan la arquitectura de la aplicación:
+- Módulo raiz: `AppModule` registra como mínimo al AppComponent
+- Módulos de características(feature Modules): agrupar componentes de una misma entidad. Ej: módulo Usuario podría agrupar componente login, register, userList, ...
+- Módulos compartidos (shared Module): Se utiliza para exportar componentes reutilizables, servicios, pipes, directivas,...
+
+Para que un componente dentro de un módulo sea visible, debe estar registrado dentro de la propiedad `exports` del @ngModule.
+
+
+
+ 
+ 
+ 
 
 
 
