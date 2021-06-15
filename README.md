@@ -606,6 +606,69 @@ Los módulos nos facilitan la arquitectura de la aplicación:
 Para que un componente dentro de un módulo sea visible, debe estar registrado dentro de la propiedad `exports` del @ngModule.
 
 
+### 10 y 14 - Junio
+
+**ROUTING(Enrutamiento)**
+
+Enrutar significa navegar entre los distintos enlaces de la aplicación. Coincide diseño de wireframes.
+
+Enrutar en Angular requiere:
+1. Crear el proyecto con la opción `ng new mi-proyecto --routing=true`
+2. Se crea la clase AppRoutingModule, donde se define el array de `routes`:
+  ```ts
+  const routes Routes = [
+  {path: 'home', component: HomeComponent},
+  {path: '', redirectTo: 'home', pathMatch:'full'},
+  {path: 'customer', component: CustomerListComponent}
+   ]
+   ```
+3. Creamos los vínculos de navegación:
+  ```ts
+  //Barra de navegación
+  <li><a routerLink='home'>HOME</a></li>
+  ```
+4. Asegurar que existe la directiva `<router-outlet></router-outlet>
+
+Parámetros en rutas:
+
+```ts
+{path: 'customer/:id', component: CustomerDetailComponent}
+
+//Barra de navegación
+
+<li><a routerLink='customer/1'>HOME</a></li>
+
+En el componente destino (CustomerDetailComponent)
+Recuperamos el parámetro dentro del método `ngOnInit(){}`
+```ts
+id!:string;
+constructor(private ruta: ActivatedRoute){}
+ngOnInit(){
+  this.ruta.paramMap.subscribe(parametros =>{
+    this.id = parametros.get('id')
+    //llamar al backend con el id para recuperar datos.
+  
+  })
+}
+```
+Rutas anidadas:
+Trabajamos con más de un `router-outlet`:
+```ts
+//AppRoutingModule
+routes Routes = [
+{path: 'customer', component: CustomerComponent,
+children:[
+{path:'lista', component: 'CustomerListComponent'
+]
+}
+]
+
+
+
+
+
+
+
 
  
  
