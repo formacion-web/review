@@ -662,6 +662,15 @@ children:[
 ]
 }
 ]
+```
+### 15 Junio
+
+Interacción entre el ts y el template.
+
+- Tres tipos de interacción:
+  - Interpolación de variables: utilizando **{{}}** evaluamos expresiones y variables.
+  - Binding de propiedades: `[atributo]='código'`
+  - Binding de eventos: `('click') = 'método_de_la_clase'`
 
 
 
