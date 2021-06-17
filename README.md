@@ -672,6 +672,16 @@ Interacción entre el ts y el template.
   - Binding de propiedades: `[atributo]='código'`
   - Binding de eventos: `('click') = 'método_de_la_clase'`
 
+### 16 Junio
+
+Directivas: extensiones del html. Dotamos al html de nuevas características. Tres tipos:
+- estructurales: modifican el DOM. Ej. *ngIf, *ngFor, *ngSwitch,...
+- atributivas: modifican el aspecto de los elementos del DOM. ngClass
+- componentes: son directivas con vistas.
+
+Etiquetas de soporte a las directivas: `<ng-template>` y `<ng-container>`. Son etiquetas que no se renderizan o bien se renderizan si se cumplen las condiciones de las directivas.
+
+
 
 
 
