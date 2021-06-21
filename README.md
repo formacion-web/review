@@ -681,6 +681,26 @@ Directivas: extensiones del html. Dotamos al html de nuevas características. Tr
 
 Etiquetas de soporte a las directivas: `<ng-template>` y `<ng-container>`. Son etiquetas que no se renderizan o bien se renderizan si se cumplen las condiciones de las directivas.
 
+### 17 Junio
+
+**Pipes**
+
+Clases que modifican el contenido de la plantilla en Angular. Implementan un interfaz que obliga a construir una función 
+```transform(parametro, args[]){
+
+}
+```
+
+Se utiliza en la vista con la notación {{value | nombre_pipe [: param1 : param2...]}}
+
+Built-in Pipes 
+date
+uppercase
+lowercase
+currency
+number
+json
+async
 
 
 
