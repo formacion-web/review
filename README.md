@@ -702,8 +702,43 @@ number
 json
 async
 
+### 22 Junio
 
+Formularios: 
+**Template-driven forms**
+- La lógica del formulario se dirige desde el html.
+- Utilizan la directiva `ngModel` que se incluye en el módulo `FormsModule`.
+- Se incluyen atributos y directivas que permiten gestionar los controles del formulario.
 
+1. Importar el FormsModule en el módulo del componente donde se encuentra el formulario
+```ts
+imports:[
+FormsModule]
+```
+2. asignar la directiva ngForm al formulario:
+```
+<form #myForm = 'ngForm' >
+```
+3. asignar a cada control:
+- atributo name='nombre-control'
+- directiva ngModel
+- definir una variable #myControl = 'ngModel' (para gestionar validaciones)
+```
+<form #myForm = 'ngForm'>
+<input type='text' name='username' ngModel #usernameModel = 'ngModel'>
+```
+**Validaciones**
+Pertenecen al ámbito de html5. Son atributos que se asignan a los controles del formulario:
+EJ. required, minLength, maxLength, min, max, pattern. El type email incluye la validación pattern '@'.
+
+- Las validaciones alteran el valor de unas propiedades boolean:
+-   valid /invalid: (no)existe algún valor en el input que no cumple alguna validación
+-   touched/untouched: (no)se ha puesto el foco en un input
+-   dirty/ pristine: (no)se ha comenzado a editar un input
+-   además al definir una validación se genera una propiedad dentro del objeto **`errors`** del control:
+     ej.: usernameModel.errors.required = true;
+
+En Angular se pueden utilizar directivas de control como `*ngIf` para mostrar alertas o definir acciones si existen errores de validación.
 
 
 
