@@ -740,6 +740,55 @@ EJ. required, minLength, maxLength, min, max, pattern. El type email incluye la 
 
 En Angular se pueden utilizar directivas de control como `*ngIf` para mostrar alertas o definir acciones si existen errores de validación.
 
+### 25-Junio
+
+**Formularios reactivos**
+
+Requieren importar los módulos: FormsModule y ReactiveFormsModule dentro del módulo del componente.
+
+Instancian la clase `FormGroup` que representa al formulario
+Los controles se representan por instancias de la clase `FormControl`.
+
+```ts
+
+class Component{
+
+myForm: FormGroup;
+
+constructor(){
+myForm = new FormGroup({
+name: new FormControl('');
+password: new FormControl('');
+});
+}
+
+}
+```
+
+Utilizando factorías: `FormBuilder`;
+
+```ts
+constructor(private fb: FormBuilder){
+
+myForm = fb.group({
+name:'',
+password:'',
+confirmPassword:'',
+})
+}
+
+```html
+<form formGroupName = 'myForm'>
+<input formControlName = 'name'>
+```
+
+
+
+
+
+
+
+
 
 
 
