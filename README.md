@@ -782,6 +782,20 @@ confirmPassword:'',
 <input formControlName = 'name'>
 ```
 
+### 28 Junio
+
+**Services**
+
+Para trabajar con Servicios HTTP de Angular debemos:
+
+1. Crear un servicio: `ng g s nombre_servicio`
+2. Importar el `HttpClientModule` en AppModule
+3. Inyectar el `HttpClient` en el servicio que hemos generado.
+4. Crear método que llame a http.get(URL).
+5. Desde el componente que va a presentar los datos inyectar el servicio nuestro.
+6. Llamar al método de nuestro servicio (creado en el paso 4).
+7. Subscribirse al método para leer los datos de la API.
+
 
 
 
