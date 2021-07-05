@@ -797,6 +797,48 @@ Para trabajar con Servicios HTTP de Angular debemos:
 7. Subscribirse al método para leer los datos de la API.
 
 
+### 1 Julio
+
+Interacción entre componentes
+
+Decorando variables en el componente hijo con:
+@Input() nombre_variable ==> 
+```ts
+//movie.component.ts
+movies:Array<Movie> = [pelicula1, pelicula2, pelicula3];
+
+//movie.component.html
+<app-movie [moviesList]= "movies"></app-movie>
+
+//movie-list.component.ts
+selector:app-movie
+@Input() moviesList: Array<Movie>;
+
+//movie-list.component.html
+<li *ngFor="let movie of movieList"></li>
+```
+```
+```ts
+//form-movie.component.ts
+@Output() eventMovie = new EventEmitter<Movie>();
+
+sendData(){
+  
+  this.eventMovie.emit(this.formMovie.values);
+}
+
+//form-movie.component.html
+<button (click)=sendData()>
+ 
+//movie.component.html
+<app-form-movie (eventMovie)=receiveData($event)></app-form-movie>
+
+//movie.component.ts
+receiveData(movie: Movie){
+this.movieService.createMovie$(movie);
+}
+
+
 
 
 
